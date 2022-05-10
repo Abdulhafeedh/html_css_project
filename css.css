@@ -1,0 +1,211 @@
+header{
+    color: white;
+    margin-right:  auto;
+    margin-left: auto;
+}
+body{
+    color: white;
+    background-image:linear-gradient(to left, black,#333);
+
+}
+nav{
+    background-color: #333;
+    height:60px;
+    padding-bottom: 7px;
+    margin:0px 150px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+nav li{
+    float: right;
+}
+
+nav li a{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 0;
+    font-weight: bold;
+    border:0px solid #333;
+}
+nav li img:hover {
+    width: 45px;
+    height: 45px;  
+    border-bottom: 2px solid white;
+}
+
+#div_down{
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    padding: 0px 0px;
+}
+
+#div_down a{
+  color: #333;
+  display: block; 
+  
+}
+#li_down:hover #div_down{
+    display: block;
+
+}
+
+#div_down a:hover{
+color:white;
+background-color:rgb(63, 59, 59);
+cursor: pointer;
+
+   
+}
+
+nav img{
+   width: 40px;
+    height: 40px;
+ 
+}
+
+header img{
+    width:170px;
+    height:170px;
+    margin-right: 448px;
+}
+header span{
+    text-align: center;
+    padding-bottom:10px ;
+    display: block;
+    color: rgb(211, 14, 14);
+    font-weight:bold;
+   -webkit-text-fill-color: rgb(255, 255, 255);
+   -webkit-text-stroke-width: 1px;
+   font-size: 30px;
+   font-family: 'Lalezar', cursive;
+}
+header{
+    margin:0px 150px;
+}
+
+
+
+
+ 
+
+ #divcent{
+
+    margin:20px 150px;
+ 
+ }
+ #divcent h1{
+     color: rgb(255, 0, 0);
+     border-bottom:2px solid white;
+     padding: 30px 0;
+     font-family: 'Baloo Bhaijaan 2', cursive;
+
+ }
+
+
+ #imgin{
+
+    padding-top:90px ;
+    width: 400px;
+    height: 400px;
+ }
+#ddin{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin:60px 150px;
+    background-color: #333;
+    height: 320px;
+    width: 78%;
+}
+
+#chat{
+  
+   padding-top: 40px;
+  
+    width: 40px;
+    height: 40px;
+    
+}
+
+#loca{
+    padding-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+footer h1{
+    padding: 20px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+   
+}
+
+footer span{
+    text-align:start;
+    color: white;
+    font-size: 20px;
+}
+footer p{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+#chat:hover{
+    cursor: pointer;
+    border-bottom:2px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+#pag2div{
+
+    background-color:#333;
+    margin:60px 150px;
+    text-align: center;
+    height: 1050px;
+}
+#pag2div p{
+    text-align: right;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+#pag2div h1{
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+}
+#pag2div img{
+    padding-top: 30px;
+    height: 600px;
+    width: 500px;
+}
+#pag2div a{
+    text-decoration: none;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    
+}
+
+#pag2div a:hover{
+    background-color: lime;
+    font-size: 35px;
+    border-radius: 45px;
+    padding: 10px 35px;
+    color: white;
+}
